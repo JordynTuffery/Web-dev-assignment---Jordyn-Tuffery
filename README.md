@@ -1,4 +1,4 @@
-This is my html and css code for my assigment which is a skincare website. 
+This is my html and css code for my assigment which is a skincare website and JS code which is in a seperate folder.
 
 I have created three pages; home, products and contact. 
 
