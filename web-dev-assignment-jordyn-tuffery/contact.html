@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="skincare, skin, natural, new zealand" />
+    <meta name="designer" content="jordyn tuffery" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/tab-icon.png" />
+    <title>Alpyn Beauty</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="bg-img-contact">
+        <div class="container">
+          <nav class="topnav">
+            <img
+              src="./assets/images/search.svg"
+              alt="Search Icon"
+              class="search-icon"
+            />
+            <a href="./index.html">Home</a>
+            <a href="./products.html">Products</a>
+            <a href="./contact.html">Contact</a>
+            <img
+              src="./assets/images/shopping-bag.svg"
+              alt="Shopping Bag Icon"
+              class="icon-shopping-cart"
+            />
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-section">
+        <h1 class="contact-us-heading">Contact Us</h1>
+        <div class="map-container">
+          <iframe
+            width="100"
+            height="350"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=174.74643230438235%2C-41.30221645897497%2C174.8078012466431%2C-41.2748392409744&amp;layer=mapnik&amp;marker=-41.288513162720534%2C174.7771167755127"
+            allowfullscreen
+          ></iframe>
+          <small
+            ><a
+              href="https://www.openstreetmap.org/?mlat=-41.2885&amp;mlon=174.7771#map=15/-41.2885/174.7771"
+              >View Larger Map</a
+            ></small
+          >
+        </div>
+      </section>
+
+      <section class="contact-form-section">
+        <div class="container">
+          <form action="submit.php" method="post" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./products.html">Products</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

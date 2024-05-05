@@ -1,0 +1,16 @@
+$site-width: 1500px;
+
+:root {
+  --primary-font-colour: #ffa7a8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
